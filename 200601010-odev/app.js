@@ -17,4 +17,4 @@ btn.onclick = function ()
     alert("Seçim Yapmadınız!");
   }
   document.getElementById("sonucDon").innerHTML = "SONUÇ : " + sonuc;
-};
+}; 
