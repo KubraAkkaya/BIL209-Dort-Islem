@@ -1,0 +1,65 @@
+body{
+    width: 600px;
+    margin: auto;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    border-style: groove;
+    border-color: blueviolet;
+    border-width: thick;
+}
+
+body h1{
+    margin-top: 1em;
+    color: rebeccapurple;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#islemSecme h2, #sayiİsteme h2{
+    color:  rebeccapurple;
+}
+
+form{
+    text-align: center;
+}
+
+form .sayi{
+     font-size: large;
+     font-weight: bold;
+}
+
+input[type="text"]{
+     border-radius: 0.5em;
+     border-style: hidden;
+}
+
+input[type="button"]{
+    font-weight: bold;
+    border-style: groove;
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+input[type="button"]:hover {
+    color: rebeccapurple;
+    font-size: medium;
+    border-color: black;
+    background-color: white;
+}
+
+#sonucDon{
+     text-align: center;
+     font-weight: bolder;
+     color: red;
+}
+
+#ben p{
+    border-style: solid;
+    border-color: rebeccapurple;
+    margin: 1em 6em;
+    text-align: center;
+    color: rebeccapurple;
+    font-family: cursive;
+}

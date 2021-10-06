@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <title>Dört İşlem</title>
+  </head>
+  <body>
+    <h1>Dört İşleme Hoşgeldiniz</h1>
+
+    <form name="dortİslem">
+      <div id="sayiİsteme">
+        <h2>Sayıları Giriniz.</h2>
+        <label class="sayi">1. Sayı : </label>
+        <input type="text" id="sayi1" /><br /><br />
+        <label class="sayi">2. Sayı : </label>
+        <input type="text" id="sayi2" /><br /><br />
+      </div>
+
+      <div id="islemSecme">
+        <h2>İşlem Türünü Seçiniz.</h2>
+        <input type="radio" name="islem" value="Toplama" id="toplama" /> Toplama
+        <input type="radio" name="islem" value="Çıkarma" id="cikarma" /> Çıkarma
+        <input type="radio" name="islem" value="Çarpma" id="carpma" /> Çarpma
+        <input type="radio" name="islem" value="Bölme" id="bolme" /> Bölme
+        <br /><br />
+      </div>
+
+      <input type="button" id="btnHesap" value="HESAPLA" />
+    </form>
+    <br />
+    <div id="sonucDon"></div>
+
+    <div id="ben">
+      <p>Öğrenci No: 200601010<br>
+         Ad-Soyad: Kübra AKKAYA <br>
+         Ders: Web Tabanlı Programlamaya Giriş </p>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
